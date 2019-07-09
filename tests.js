@@ -40,7 +40,7 @@ describe('isOdd', function () {
   it('should say 5.5 is not odd', function () {
     assert.equal(false, isOdd(5.5))
   })
-})
+}) 
 
 describe('isEven', function () {
   it('should say 3 is not even', function () {
@@ -55,7 +55,7 @@ describe('isEven', function () {
   it('should say 4.4 is not even', function () {
     assert.equal(false, isEven(4.4))
   })
-})
+}) 
 
 describe('fahrenheitToCelsius', function () {
   it('32 F should equal 0 Celsius', function () {
